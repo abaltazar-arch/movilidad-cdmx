@@ -1,0 +1,17 @@
+.DS_Store 
+Thumbs.db
+
+.idea/
+.vscode/
+*.iml 
+
+*.mp4
+*.avi
+*.ai 
+*.psd
+*.png
+*.JPG
+*.indd
+*.pdf
+
+
