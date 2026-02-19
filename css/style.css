@@ -1,12 +1,20 @@
+:root{
+--text-color: #A61248;
+--bg-color: #79C4F2;
+--accent-color: #2C42BF;
+--title-font: "kuhlman-vf", sans-serif;
+--text-font: "adapter-mono-pe-variable", sans-serif;
+
+}
 html {
     font-size: 100;
 }
 
 body {
-    background-color: rgb(161, 191, 217);
-    color: rgb(250, 54, 133);
-    font-family: "adapter-mono-pe-variable", sans-serif;
-    font-variation-settings: "BORD" 300, "ital" 0, "slnt" 0, "wght" 200;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: var(--fuente-texto);
+    
 }
 
 a {
@@ -17,3 +25,17 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "kuhlman-vf", sans-serif;
     font-variation-settings: "SEED" 2, "wdth" 125;
 }
+
+h1 { 
+    font-size: 4em;
+}
+h2 {
+    font-size: 3em;
+}
+h3 {
+    font-size: 2em;
+}
+h4 { 
+    font-size: 1em;
+}
+
