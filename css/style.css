@@ -1,6 +1,6 @@
 :root{
---text-color: #A61248;
---bg-color: #79C4F2;
+--text-color: #79C4F2;
+--bg-color:  #A61248;
 --accent-color: #2C42BF;
 --title-font: "kuhlman-vf", sans-serif;
 --text-font: "adapter-mono-pe-variable", sans-serif;
@@ -28,6 +28,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 { 
     font-size: 4em;
+    margin-bottom: 0;
 }
 h2 {
     font-size: 3em;
@@ -36,6 +37,6 @@ h3 {
     font-size: 2em;
 }
 h4 { 
-    font-size: 1em;
+    font-size: 1.5em;
 }
 
