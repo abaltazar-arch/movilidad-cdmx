@@ -7,22 +7,36 @@
 
 }
 html {
+    scroll-behavior: smooth;
     font-size: 100;
 }
 
 body {
+    
     background-color: var(--bg-color);
     color: var(--text-color);
     font-family: var(--fuente-texto);
-    
 }
-main{
+
+main {
     width: 100%;
-    max-width:96;
+    max-width:960px;
     margin: 0 auto;
     padding: 2em;
+
+}
 a {
-color: inherit;
+    display: inline-block;
+    width: 300px;
+    color: inherit;
+    font-family: var(--title-font);
+    transition: all 300ms ease;
+    font-variation-settings: 'wdth' 125, 'SEED' 0;
+}
+
+a:hover {
+    font-variation-settings: 'wdth' 90, 'SEED' 0;
+
 }
 
 h1, h2, h3, h4, h5, h6 {
